@@ -17,14 +17,14 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  background-color: var(--white);
 }
 
-a {
+.link {
   text-decoration: none;
-  color: inherit;
 }
 
-ul {
+.list {
   list-style-type: none;
 }
 
@@ -44,9 +44,6 @@ address {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
-
-.logo-accent {
   color: var(--accent);
 }
 
@@ -82,8 +79,13 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: var(--navyblue);
 }
 .nav-list_link.active {
+  color: var(--ocean);
+}
+.nav-list_link:hover,
+.nav-list_link:focus {
   color: var(--ocean);
 }
 
@@ -97,6 +99,11 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: var(--slate);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean);
 }
 
 /* * Hero section */
@@ -116,9 +123,7 @@ address {
 }
 
 .hero-btn {
-  border-radius: 4px;
   background: var(--accent);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
@@ -173,6 +178,7 @@ address {
 .team-list {
 }
 .team-item {
+  background-color: var(--white);
 }
 .team-avatar {
 }
@@ -196,10 +202,13 @@ address {
 
 /* * Portfolio */
 .filter-btn {
-  line-height: 1.63;
-  font-weight: 500;
   color: var(--accent);
-  letter-spacing: 0.03em;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
   background-color: var(--cloud);
 }
 .filter-btn.active {
@@ -211,9 +220,11 @@ address {
 }
 
 .portfolio-subtitle {
-  font-size: 18px;
-  line-height: 2;
-  color: var(--secondary-title-color);
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 .portfolio-content {
@@ -229,6 +240,7 @@ address {
 }
 
 /* * Footer  */
+
 .footer {
   background: var(--navyblue);
 }
