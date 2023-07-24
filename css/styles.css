@@ -228,15 +228,10 @@ address {
 }
 
 .portfolio-content {
+  color: var(--slate);
   font-size: 16px;
-  color: var(--primery-color);
-  line-height: 1.88;
-}
-.address-city:hover,
-.address-city:focus,
-.address-contact:hover,
-.address-contact:focus {
-  color: var(--hover-main-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 /* * Footer  */
