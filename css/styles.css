@@ -220,7 +220,11 @@ address {
   background: var(--ocean);
   color: var(--white);
 } */
-
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
 .portfolio-link {
 }
 
