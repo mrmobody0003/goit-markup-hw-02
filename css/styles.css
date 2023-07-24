@@ -86,9 +86,9 @@ address {
   letter-spacing: 0.32px;
   color: var(--navyblue);
 }
-.nav-list_link.active {
+/* .nav-list_link.active {
   color: var(--ocean);
-}
+} */
 .nav-list_link:hover,
 .nav-list_link:focus {
   color: var(--ocean);
@@ -216,10 +216,10 @@ address {
   letter-spacing: 0.64px;
   background-color: var(--cloud);
 }
-.filter-btn.active {
+/* .filter-btn.active {
   background: var(--ocean);
   color: var(--white);
-}
+} */
 
 .portfolio-link {
 }
